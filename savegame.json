@@ -1,0 +1,86 @@
+{
+  "resources": {
+    "gold": 500,
+    "wood": 300,
+    "stone": 200,
+    "food": 400
+  },
+  "buildings": [
+    {
+      "type": "ферма",
+      "q": 1,
+      "r": 4,
+      "owner": "player",
+      "hp": 100,
+      "max_hp": 100
+    },
+    {
+      "type": "шахта",
+      "q": 5,
+      "r": 1,
+      "owner": "player",
+      "hp": 100,
+      "max_hp": 100
+    },
+    {
+      "type": "казарма",
+      "q": 10,
+      "r": 4,
+      "owner": "enemy",
+      "hp": 150,
+      "max_hp": 150
+    },
+    {
+      "type": "шахта",
+      "q": 9,
+      "r": 2,
+      "owner": "enemy",
+      "hp": 100,
+      "max_hp": 100
+    }
+  ],
+  "units": [
+    {
+      "type": "рабочий",
+      "q": 2,
+      "r": 2,
+      "owner": "player",
+      "hp": 50,
+      "max_hp": 50,
+      "attack": 5,
+      "speed": 3
+    },
+    {
+      "type": "мечник",
+      "q": 3,
+      "r": 2,
+      "owner": "player",
+      "hp": 120,
+      "max_hp": 120,
+      "attack": 30,
+      "speed": 3
+    },
+    {
+      "type": "мечник",
+      "q": 9,
+      "r": 7,
+      "owner": "enemy",
+      "hp": 120,
+      "max_hp": 120,
+      "attack": 30,
+      "speed": 3
+    },
+    {
+      "type": "лучник",
+      "q": 8,
+      "r": 8,
+      "owner": "enemy",
+      "hp": 80,
+      "max_hp": 80,
+      "attack": 25,
+      "speed": 4
+    }
+  ],
+  "turn": "player",
+  "difficulty": "medium"
+}
